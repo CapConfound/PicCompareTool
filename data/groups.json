@@ -1,0 +1,318 @@
+{
+  "ranking": [
+    {
+      "groupId": "ZgBdSS788sVgZHNM_gc_C",
+      "winner": "A"
+    },
+    {
+      "groupId": "QLG2kzAfNC3D4FBd9AyIA",
+      "winner": "B"
+    },
+    {
+      "groupId": "unM4t-jIsoVieIwyXS0No",
+      "winner": "B"
+    },
+    {
+      "groupId": "ExfbMBVhIkGRa0y9cBmyM",
+      "winner": "B"
+    }
+  ],
+  "version": 1,
+  "groups": [
+    {
+      "id": "ZgBdSS788sVgZHNM_gc_C",
+      "name": "Из поезда",
+      "color": "blue",
+      "photos": {
+        "A": [
+          "PXL_20251113_104613562.RAW-02.ORIGINAL.dng",
+          "PXL_20251113_104613562.RAW-01.COVER.jpg",
+          "PXL_20251113_104614292.RAW-01.COVER.jpg",
+          "PXL_20251113_104614292.RAW-02.ORIGINAL.dng",
+          "PXL_20251113_104941506.RAW-01.COVER.jpg",
+          "PXL_20251113_104941506.RAW-02.ORIGINAL.dng",
+          "PXL_20251113_105446667.RAW-01.COVER.jpg",
+          "PXL_20251113_105446667.RAW-02.ORIGINAL.dng"
+        ],
+        "B": [
+          "20251113_134940.heic",
+          "20251113_135446.heic",
+          "20251113_135456.heic",
+          "20251113_135458.heic",
+          "20251113_141140.heic"
+        ]
+      },
+      "selection": {
+        "A": "PXL_20251113_104941506.RAW-01.COVER.jpg",
+        "B": "20251113_134940.heic"
+      },
+      "createdAt": "2026-02-22T16:37:28.984Z",
+      "updatedAt": "2026-02-22T18:09:03.580Z"
+    },
+    {
+      "id": "QLG2kzAfNC3D4FBd9AyIA",
+      "name": "Бедро",
+      "color": "green",
+      "photos": {
+        "A": [
+          "PXL_20251113_104959051.RAW-01.COVER.jpg",
+          "PXL_20251113_104959051.RAW-02.ORIGINAL.dng"
+        ],
+        "B": [
+          "20251113_134958.heic"
+        ]
+      },
+      "selection": {
+        "A": "PXL_20251113_104959051.RAW-01.COVER.jpg",
+        "B": "20251113_134958.heic"
+      },
+      "createdAt": "2026-02-22T16:39:26.537Z",
+      "updatedAt": "2026-02-22T18:10:05.947Z"
+    },
+    {
+      "id": "unM4t-jIsoVieIwyXS0No",
+      "name": "[ВДНХ] Арка",
+      "color": "rose",
+      "photos": {
+        "A": [
+          "PXL_20251113_140250885.RAW-01.COVER.jpg",
+          "PXL_20251113_140250885.RAW-02.ORIGINAL.dng"
+        ],
+        "B": [
+          "20251113_170301.heic"
+        ]
+      },
+      "selection": {
+        "A": "PXL_20251113_140250885.RAW-01.COVER.jpg",
+        "B": "20251113_170301.heic"
+      },
+      "createdAt": "2026-02-22T16:53:53.103Z",
+      "updatedAt": "2026-02-22T18:12:41.379Z"
+    },
+    {
+      "id": "ExfbMBVhIkGRa0y9cBmyM",
+      "name": "[ВДНХ] Канатка",
+      "color": "amber",
+      "photos": {
+        "A": [
+          "PXL_20251113_140454248.RAW-01.COVER.jpg",
+          "PXL_20251113_140454248.RAW-02.ORIGINAL.dng"
+        ],
+        "B": [
+          "20251113_170438.heic"
+        ]
+      },
+      "selection": {
+        "A": "PXL_20251113_140454248.RAW-01.COVER.jpg",
+        "B": "20251113_170438.heic"
+      },
+      "createdAt": "2026-02-22T17:01:39.471Z",
+      "updatedAt": "2026-02-22T18:13:02.813Z"
+    },
+    {
+      "id": "EZaB92C9lvKtA-65xxaTg",
+      "name": "[ВДНХ] Колесо обозрения",
+      "color": "violet",
+      "photos": {
+        "A": [
+          "PXL_20251113_140547663.RAW-01.COVER.jpg",
+          "PXL_20251113_140547663.RAW-02.ORIGINAL.dng"
+        ],
+        "B": [
+          "20251113_170546.heic"
+        ]
+      },
+      "selection": {
+        "A": null,
+        "B": null
+      },
+      "createdAt": "2026-02-22T17:02:01.229Z",
+      "updatedAt": "2026-02-22T17:02:11.929Z"
+    },
+    {
+      "id": "dXuU1B2bfv8iCAeA93z-D",
+      "name": "[ВДНХ] Дорога вдоль",
+      "color": "teal",
+      "photos": {
+        "A": [
+          "PXL_20251113_141111309.RAW-01.COVER.jpg",
+          "PXL_20251113_141111309.RAW-02.ORIGINAL.dng"
+        ],
+        "B": [
+          "20251113_171046.heic",
+          "20251113_171048.heic"
+        ]
+      },
+      "selection": {
+        "A": null,
+        "B": null
+      },
+      "createdAt": "2026-02-22T17:02:31.044Z",
+      "updatedAt": "2026-02-22T17:02:45.512Z"
+    },
+    {
+      "id": "5R-YzeJrQHxd6TcFZYpTI",
+      "name": "[ВДНХ] Останкинская башня",
+      "color": "orange",
+      "photos": {
+        "A": [
+          "PXL_20251113_141138194.RAW-01.COVER.jpg",
+          "PXL_20251113_141138194.RAW-02.ORIGINAL.dng"
+        ],
+        "B": [
+          "20251113_171153.heic"
+        ]
+      },
+      "selection": {
+        "A": null,
+        "B": null
+      },
+      "createdAt": "2026-02-22T17:03:03.662Z",
+      "updatedAt": "2026-02-22T17:03:15.312Z"
+    },
+    {
+      "id": "CjXqlKN2gKk2j-VeuL863",
+      "name": "[ВДНХ] Шпиль",
+      "color": "pink",
+      "photos": {
+        "A": [
+          "PXL_20251113_141521316.RAW-01.COVER.jpg",
+          "PXL_20251113_141521316.RAW-02.ORIGINAL.dng"
+        ],
+        "B": [
+          "20251113_171505.heic"
+        ]
+      },
+      "selection": {
+        "A": null,
+        "B": null
+      },
+      "createdAt": "2026-02-22T17:03:37.261Z",
+      "updatedAt": "2026-02-22T17:03:55.311Z"
+    },
+    {
+      "id": "W5Zz0w8qbrl_C6sEY_dGy",
+      "name": "[ВДНХ] Дом 1",
+      "color": "cyan",
+      "photos": {
+        "A": [
+          "PXL_20251113_141914173.RAW-01.COVER.jpg",
+          "PXL_20251113_141914173.RAW-02.ORIGINAL.dng",
+          "PXL_20251113_141917963.RAW-02.ORIGINAL.dng",
+          "PXL_20251113_141917963.RAW-01.COVER.jpg"
+        ],
+        "B": [
+          "20251113_171858.heic",
+          "20251113_171900.heic"
+        ]
+      },
+      "selection": {
+        "A": null,
+        "B": null
+      },
+      "createdAt": "2026-02-22T17:04:14.795Z",
+      "updatedAt": "2026-02-22T17:04:25.428Z"
+    },
+    {
+      "id": "1EX_SYWDUn40CyiiX0oo7",
+      "name": "[ВДНХ] Дом 2",
+      "color": "lime",
+      "photos": {
+        "A": [
+          "PXL_20251113_141930621.RAW-01.COVER.jpg",
+          "PXL_20251113_141930621.RAW-02.ORIGINAL.dng",
+          "PXL_20251113_141933814.RAW-02.ORIGINAL.dng",
+          "PXL_20251113_141933814.RAW-01.COVER.jpg"
+        ],
+        "B": [
+          "20251113_171949.heic",
+          "20251113_171951.heic"
+        ]
+      },
+      "selection": {
+        "A": null,
+        "B": null
+      },
+      "createdAt": "2026-02-22T17:04:29.895Z",
+      "updatedAt": "2026-02-22T17:04:41.727Z"
+    },
+    {
+      "id": "RXIpL-nrvIV2_a59OBq2B",
+      "name": "[ВДНХ] Дорога поворот",
+      "color": "blue",
+      "photos": {
+        "A": [
+          "PXL_20251113_142218604.RAW-02.ORIGINAL.dng",
+          "PXL_20251113_142218604.RAW-01.COVER.jpg"
+        ],
+        "B": [
+          "20251113_172157.heic"
+        ]
+      },
+      "selection": {
+        "A": null,
+        "B": null
+      },
+      "createdAt": "2026-02-22T17:04:56.778Z",
+      "updatedAt": "2026-02-22T17:05:06.358Z"
+    },
+    {
+      "id": "opMoesrNgknl7lkAHF4pc",
+      "name": "[ВДНХ] Куст",
+      "color": "green",
+      "photos": {
+        "A": [
+          "PXL_20251113_142623504.RAW-02.ORIGINAL.dng",
+          "PXL_20251113_142623504.RAW-01.COVER.jpg"
+        ],
+        "B": []
+      },
+      "selection": {
+        "A": null,
+        "B": null
+      },
+      "createdAt": "2026-02-22T18:42:33.133Z",
+      "updatedAt": "2026-02-22T18:42:44.503Z"
+    },
+    {
+      "id": "HHJ5vwYFjy5H4QlQ95ZLz",
+      "name": "[ВДНХ] Озеро 1",
+      "color": "rose",
+      "photos": {
+        "A": [
+          "PXL_20251113_143224082.RAW-01.COVER.jpg",
+          "PXL_20251113_143224082.RAW-02.ORIGINAL.dng"
+        ],
+        "B": [
+          "20251113_173203.heic"
+        ]
+      },
+      "selection": {
+        "A": null,
+        "B": null
+      },
+      "createdAt": "2026-02-22T18:43:03.976Z",
+      "updatedAt": "2026-02-22T18:43:25.318Z"
+    },
+    {
+      "id": "0sZuB8w32q1Ep-Bii4wGJ",
+      "name": "[ВДНХ] Озеро 2",
+      "color": "amber",
+      "photos": {
+        "A": [
+          "PXL_20251113_143301793.RAW-01.COVER.jpg",
+          "PXL_20251113_143301793.RAW-02.ORIGINAL.dng"
+        ],
+        "B": [
+          "20251113_173320.heic"
+        ]
+      },
+      "selection": {
+        "A": null,
+        "B": null
+      },
+      "createdAt": "2026-02-22T18:43:16.011Z",
+      "updatedAt": "2026-02-22T18:43:27.967Z"
+    }
+  ]
+}

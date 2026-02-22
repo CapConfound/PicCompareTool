@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+/* ─── Dark theme — dark brown base + forest-green accent ─────────────────── */
+:root,
+[data-theme="dark"] {
+  --bg-base:     #0e0b08;
+  --bg-panel:    #130f0b;
+  --bg-surface:  #19140f;
+  --bg-elevated: #211a13;
+
+  --border:      #302418;
+  --border-hi:   #443220;
+
+  /* Accent: muted forest green */
+  --ac:          #52b788;
+  --ac-txt:      rgba(82,183,136,.55);
+  --ac-05:       rgba(82,183,136,.05);
+  --ac-08:       rgba(82,183,136,.08);
+  --ac-10:       rgba(82,183,136,.10);
+  --ac-15:       rgba(82,183,136,.15);
+  --ac-20:       rgba(82,183,136,.20);
+  --ac-25:       rgba(82,183,136,.25);
+  --ac-30:       rgba(82,183,136,.30);
+  --ac-40:       rgba(82,183,136,.40);
+  --ac-50:       rgba(82,183,136,.50);
+  --ac-shadow:   rgba(30,70,50,.22);
+
+  /* Text */
+  --tx-hi:  #ecdfd0;
+  --tx-md:  #9c7d5a;
+  --tx-lo:  #5e4030;
+  --tx-dim: #2e1e12;
+
+  /* Success (same hue as accent in dark) */
+  --ok:        #52b788;
+  --ok-txt:    rgba(82,183,136,.65);
+  --ok-10:     rgba(82,183,136,.10);
+  --ok-15:     rgba(82,183,136,.15);
+  --ok-20:     rgba(82,183,136,.20);
+  --ok-25:     rgba(82,183,136,.25);
+  --ok-40:     rgba(82,183,136,.40);
+  --ok-shadow: rgba(15,50,30,.28);
+
+  /* Danger */
+  --er:    #c87060;
+  --er-bg: rgba(200,112,96,.15);
+  --er-bd: rgba(200,112,96,.35);
+
+  /* Photo grid background & separator */
+  --grid-bg: #1e3828;
+}
+
+/* ─── Light theme — warm parchment base + clear blue accent ──────────────── */
+[data-theme="light"] {
+  --bg-base:     #f5ede0;
+  --bg-panel:    #ece3d0;
+  --bg-surface:  #e4d8c4;
+  --bg-elevated: #d9ccb5;
+
+  --border:      #c5b49a;
+  --border-hi:   #a89070;
+
+  /* Accent: clear mid-blue */
+  --ac:          #2563eb;
+  --ac-txt:      rgba(37,99,235,.55);
+  --ac-05:       rgba(37,99,235,.05);
+  --ac-08:       rgba(37,99,235,.07);
+  --ac-10:       rgba(37,99,235,.09);
+  --ac-15:       rgba(37,99,235,.13);
+  --ac-20:       rgba(37,99,235,.17);
+  --ac-25:       rgba(37,99,235,.22);
+  --ac-30:       rgba(37,99,235,.28);
+  --ac-40:       rgba(37,99,235,.38);
+  --ac-50:       rgba(37,99,235,.50);
+  --ac-shadow:   rgba(37,99,235,.14);
+
+  /* Text */
+  --tx-hi:  #1c1007;
+  --tx-md:  #6b4e2c;
+  --tx-lo:  #9c7855;
+  --tx-dim: #c4a882;
+
+  /* Success: forest green */
+  --ok:        #16803a;
+  --ok-txt:    rgba(22,128,58,.70);
+  --ok-10:     rgba(22,128,58,.09);
+  --ok-15:     rgba(22,128,58,.14);
+  --ok-20:     rgba(22,128,58,.18);
+  --ok-25:     rgba(22,128,58,.24);
+  --ok-40:     rgba(22,128,58,.40);
+  --ok-shadow: rgba(22,128,58,.12);
+
+  /* Danger */
+  --er:    #dc3030;
+  --er-bg: rgba(220,48,48,.10);
+  --er-bd: rgba(220,48,48,.30);
+
+  /* Photo grid background & separator */
+  --grid-bg: #d4b896;
+}
+
+/* ─── Base styles ────────────────────────────────────────────────────────── */
+body {
+  background-color: var(--bg-base);
+  color: var(--tx-hi);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+/* ─── Thin techy scrollbar ───────────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--border-hi); }
+
+/* ─── Dot-grid background texture for setup screen ──────────────────────── */
+.dot-grid {
+  background-image: radial-gradient(circle, var(--border-hi) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
