@@ -43,7 +43,7 @@ export function readStore(): Store {
   try {
     const raw = JSON.parse(fs.readFileSync(STORE_PATH, 'utf8')) as Store;
     // backward compat: old files may not have ranking
-    cache = { ranking: [], ...raw };
+    cache = { ...raw, ranking: raw.ranking ?? [] };
     return cache;
   } catch {
     cache = { version: 1, groups: [], ranking: [] };

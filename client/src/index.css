@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+/* ─── Electron: push header content past macOS traffic-light buttons ──────── */
+/* hiddenInset title bar style places traffic lights at ~x:12 y:13, ~66px wide */
+html[data-electron] .app-header {
+  padding-left: 76px;
+}
+
 /* ─── Dark theme — dark brown base + forest-green accent ─────────────────── */
 :root,
 [data-theme="dark"] {

@@ -1,11 +1,55 @@
 {
   "name": "pic-compare-tool",
+  "version": "1.0.0",
+  "description": "Local photo comparison tool for curating trip photos",
+  "author": "PicCompareTool",
   "private": true,
+  "main": "electron/main.js",
   "scripts": {
     "dev": "concurrently --names \"SERVER,CLIENT\" --prefix-colors \"cyan,green\" \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
-    "install:all": "npm i --prefix server && npm i --prefix client"
+    "install:all": "npm i && npm i --prefix server && npm i --prefix client",
+    "build:client": "npm run build --prefix client",
+    "build:server": "npm run build --prefix server",
+    "build:electron": "tsc -p electron/tsconfig.json",
+    "build": "npm run build:client && npm run build:server && npm run build:electron",
+    "dist": "npm run build && electron-builder --mac",
+    "electron:dev": "npm run build:server && npm run build:electron && ELECTRON_APP=1 electron ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "exiftool-vendored": "^26.0.0",
+    "nanoid": "^5.0.7",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.piccomparetool.app",
+    "productName": "PicCompareTool",
+    "asar": false,
+    "files": [
+      "electron/main.js",
+      "electron/preload.js",
+      "server/dist/**",
+      "server/package.json",
+      "client/dist/**",
+      "node_modules/**",
+      "package.json"
+    ],
+    "mac": {
+      "icon": "electron/icon.icns",
+      "category": "public.app-category.photography",
+      "hardenedRuntime": false,
+      "target": [
+        { "target": "dmg", "arch": ["arm64", "x64"] }
+      ]
+    },
+    "directories": {
+      "output": "dist-electron"
+    }
   }
 }

@@ -3,7 +3,11 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-export const DATA_DIR = path.resolve(__dirname, '../../data');
+// In the packaged Electron app, PICCOMPARE_DATA_DIR is set to app.getPath('userData')/data
+// before the server module is imported. In dev mode the env var is absent, so we fall back
+// to the repo's own data/ directory.
+export const DATA_DIR =
+  process.env.PICCOMPARE_DATA_DIR ?? path.resolve(__dirname, '../../data');
 const CONFIG_PATH = path.join(DATA_DIR, 'config.json');
 
 export interface Config {

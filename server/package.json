@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "exiftool-vendored": "^35.10.1",
     "express": "^4.21.2",
-    "nanoid": "^5.0.7"
+    "nanoid": "^5.0.7",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",

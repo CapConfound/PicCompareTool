@@ -1,6 +1,10 @@
 node_modules/
 dist/
+dist-electron/
 data/thumbnails/
 data/config.json
+data/groups.json
+electron/*.js
+*.tsbuildinfo
 *.log
 .DS_Store

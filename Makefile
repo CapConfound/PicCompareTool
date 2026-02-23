@@ -1,4 +1,4 @@
-.PHONY: run stop install logs
+.PHONY: run stop install logs build dist
 
 LOG := .dev.log
 
@@ -15,4 +15,10 @@ logs:
 	@tail -f $(LOG)
 
 install:
-	npm i && npm run install:all
+	npm run install:all
+
+build:
+	npm run build
+
+dist:
+	npm run dist
